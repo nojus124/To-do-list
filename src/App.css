@@ -85,12 +85,11 @@
 }
 .TaskElementas{
   min-height:60px;
-  overflow-wrap:break-word;
+  overflow:visible;
+  word-wrap:break-word;
+  white-space:normal;
   padding-right:5px;
-  display:flex;
   width:100%;
-  justify-content:left;
-  align-items:center;
 }
 .Tasks{
   background-color:#ecedf6;
